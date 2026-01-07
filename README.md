@@ -1,7 +1,4 @@
-# Narcos-Investigation-Cyber-Forensics-
-ICT378 Cyber Forensics Investigation Findings and Justifications
-
-# ICT378 Cyber Forensics & Incident Response  
+# ICT378 Cyber Forensics Investigation Findings and Justifications (2025)
 ## Academic DFIR Case Study: “2019 Narcos”
 
 ## Project Summary
