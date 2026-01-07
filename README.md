@@ -9,14 +9,15 @@ The focus of this repository is **methodology, evidentiary reasoning, and invest
 ---
 
 ## Case Context (High-Level)
-In the “2019 Narcos” academic scenario, two individuals were intercepted upon arrival with narcotics concealed in luggage. Subsequent forensic examination was conducted on three Windows-based systems to determine:
+In the “2019 Narcos” academic scenario, two individuals were intercepted upon arrival with narcotics concealed in luggage. Through subsequent forensic examinations, a third party was suspected to be involved. Thus, investigation was conducted on three Windows-based systems to determine:
 
 - Roles and involvement of each suspect
 - Communication and coordination methods
 - Use of concealment or anti-forensic techniques
 - Presence of malware or spyware facilitating illicit activity
+- Compiling evidence of drug trafficking
 
-Full scenario details are provided in the official assignment brief included in this repository.
+NOTE: Full scenario details are provided in the official assignment brief included in this repository.
 
 ---
 
@@ -46,7 +47,7 @@ Full scenario details are provided in the official assignment brief included in 
    - Tool limitations addressed via cross-tool validation.
 
 3. **Artefact Analysis**
-   - Communications (e.g., Discord artefacts)
+   - Communications (i.e. Discord artefacts)
    - Browser activity and downloaded content
    - Suspicious documents and metadata
    - Image analysis and steganographic indicators
@@ -108,12 +109,12 @@ Artefacts were corroborated across tools and timelines to reduce false positives
 ## Limitations & Reflections
 
 ### Tool & Data Constraints
-- Certain artefacts were partially corrupted or incomplete due to prior system activity and user behaviour.
+- Certain artefacts were partially corrupted or incomplete due to prior system activity and user behaviour. (Mismatching Hash Function = Corrupted File)
 - Some evidence relied on indirect indicators rather than direct artefact recovery, requiring careful interpretation.
 - Memory analysis is inherently time-sensitive, and not all volatile artefacts could be preserved.
 
 ### Investigative Challenges
-- Tool limitations necessitated cross-validation between Autopsy and Magnet AXIOM.
+- Tool limitations necessitated cross-validation between Autopsy (Disk Images) and Magnet AXIOM (Volatile Memory).
 - Case database inconsistencies required manual repair and verification.
 - Artefact interpretation required balancing automation with analyst judgement.
 
@@ -121,9 +122,7 @@ Artefacts were corroborated across tools and timelines to reduce false positives
 - Importance of validating findings across multiple forensic tools
 - Understanding when artefacts are **supportive** rather than **conclusive**
 - Recognising anti-forensic behaviour and its investigative implications
-- Maintaining evidentiary discipline when working with sensitive material
-
-This project reinforced the need for structured methodology, analytical restraint, and defensible reasoning in real-world DFIR investigations.
+- Maintaining evidentiary discipline when working with sensitive material.
 
 ---
 
