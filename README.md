@@ -1,4 +1,4 @@
-# ICT378 Cyber Forensics Investigation Findings and Justifications (2025)
+# Digital Forensic Investigation — Narcos Case Study (Windows 10 Systems)
 ## Academic DFIR Case Study: “2019 Narcos”
 
 ## Project Summary
@@ -6,7 +6,15 @@ This repository documents a university-level Digital Forensics and Incident Resp
 
 The focus of this repository is **methodology, evidentiary reasoning, and investigative documentation**, rather than the distribution of forensic images or sensitive artefacts.
 
----
+## Investigation Workflow
+
+The investigation followed a structured DFIR workflow:
+
+1. Evidence verification and hash validation  
+2. Disk image and memory artefact ingestion  
+3. Artefact analysis across file system, registry, and applications  
+4. Cross-device correlation and timeline reconstruction  
+5. Documentation of findings and investigative conclusions
 
 ## Case Context (High-Level)
 In the “2019 Narcos” academic scenario, two individuals were intercepted upon arrival with narcotics concealed in luggage. Through subsequent forensic examinations, a third party was suspected to be involved. Thus, investigation was conducted on three Windows-based systems to determine:
@@ -63,7 +71,7 @@ NOTE: Full scenario details are provided in the official assignment brief includ
 
 ---
 
-## Technical Scope & Artefact Categories
+## Forensic Artefact Analysis
 The investigation focused on Windows 10 forensic artefacts commonly relied upon in DFIR examinations. Analysis prioritised artefacts with high evidentiary value and cross-tool verifiability.
 
 ### Operating System & User Activity
@@ -95,6 +103,20 @@ The investigation focused on Windows 10 forensic artefacts commonly relied upon 
 Artefacts were corroborated across tools and timelines to reduce false positives and strengthen evidentiary confidence.
 
 ---
+
+## Timeline Reconstruction
+
+Artefacts recovered from multiple systems were correlated to reconstruct user activity and communication patterns.
+
+Sources used for timeline reconstruction included:
+
+- NTFS timestamp metadata
+- Browser activity records
+- Application execution artefacts
+- Communication artefacts
+- Memory analysis findings
+
+Cross-device correlation helped identify sequences of activity relevant to the narcotics trafficking operation.
 
 ## Key Findings (Summary)
 - Coordinated communication and operational planning between suspects
