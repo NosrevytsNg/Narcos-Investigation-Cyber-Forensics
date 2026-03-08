@@ -56,14 +56,14 @@ NOTE: Full scenario details are provided in the official assignment brief includ
 ---
 
 ## Methodology
-1. **Evidence Verification**
+**Phase 1 - Evidence Verification**
    - Cryptographic hashing performed prior to and during analysis to ensure integrity.
 
-2. **Forensic Acquisition & Ingestion**
+**Phase 2 - Forensic Acquisition & Ingestion**
    - Disk images and memory dumps analysed in isolated forensic cases.
    - Tool limitations addressed via cross-tool validation.
 
-3. **Artefact Analysis**
+**Phase 3 - Artefact Analysis**
    - Communications (i.e. Discord artefacts)
    - Browser activity and downloaded content
    - Suspicious documents and metadata
@@ -71,11 +71,11 @@ NOTE: Full scenario details are provided in the official assignment brief includ
    - Malware and spyware traces
    - Anti-forensic behaviour (file deletion, obfuscation)
 
-4. **Correlation & Timeline Reconstruction**
+**Phase 4 - Correlation & Timeline Reconstruction**
    - Metadata and system artefacts correlated across devices.
    - Timeline analysis used to support investigative conclusions.
 
-5. **Reporting**
+**Phase 5 - Reporting**
    - Findings documented with clear justification and evidentiary linkage.
 
 ---
