@@ -17,7 +17,7 @@ A[Evidence verification and hash validation]
 
 A --> B[Disk image and memory artefact ingestion]
 
-B --> C[Artefact analysis (FS, registry, and applications)]
+B --> C[Artefact analysis<br>FS + Registry + Applications]
 
 C --> D[Cross-device correlation and timeline reconstruction]
 
