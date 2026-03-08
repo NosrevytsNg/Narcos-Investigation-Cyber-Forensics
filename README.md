@@ -21,13 +21,13 @@ flowchart TD
 
 A[Evidence verification and hash validation]
 
-A --> B [Disk image and memory artefact ingestion]
+A --> B[Disk image and memory artefact ingestion]
 
-B --> C [Artefact analysis across file system, registry, and applications]
+B --> C[Artefact analysis across file system, registry, and applications]
 
-C --> D [Cross-device correlation and timeline reconstruction]
+C --> D[Cross-device correlation and timeline reconstruction]
 
-D --> E [Documentation of findings and investigative conclusions]
+D --> E[Documentation of findings and investigative conclusions]
 ```
 
 ## Case Context (High-Level)
