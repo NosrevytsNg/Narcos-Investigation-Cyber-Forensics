@@ -10,20 +10,14 @@ The focus of this repository is **methodology, evidentiary reasoning, and invest
 
 The investigation followed a structured DFIR workflow:
 
-1. Evidence verification and hash validation  
-2. Disk image and memory artefact ingestion  
-3. Artefact analysis across file system, registry, and applications  
-4. Cross-device correlation and timeline reconstruction  
-5. Documentation of findings and investigative conclusions
-
 ```mermaid
-flowchart TD
+flowchart LR
 
 A[Evidence verification and hash validation]
 
 A --> B[Disk image and memory artefact ingestion]
 
-B --> C[Artefact analysis across file system, registry, and applications]
+B --> C[Artefact analysis (FS, registry, and applications)]
 
 C --> D[Cross-device correlation and timeline reconstruction]
 
