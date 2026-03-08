@@ -16,6 +16,24 @@ The investigation followed a structured DFIR workflow:
 4. Cross-device correlation and timeline reconstruction  
 5. Documentation of findings and investigative conclusions
 
+```mermaid
+flowchart TD
+
+A[Evidence verification and hash validation]
+
+A --> B[Disk image and memory artefact ingestion]
+
+B -->|Toxic comments| C[Flagged / Audit Log]
+
+B -->|Non-toxic comments| D[Cleaned Dataset]
+
+D --> E[Artefact analysis across file system, registry, and applications]
+
+E --> F[Cross-device correlation and timeline reconstruction]
+
+F --> G[Documentation of findings and investigative conclusions]
+```
+
 ## Case Context (High-Level)
 In the “2019 Narcos” academic scenario, two individuals were intercepted upon arrival with narcotics concealed in luggage. Through subsequent forensic examinations, a third party was suspected to be involved. Thus, investigation was conducted on three Windows-based systems to determine:
 
