@@ -1,7 +1,7 @@
 # Digital Forensic Investigation — Narcos Case Study (Windows 10 Systems)
 
 ## Project Summary
-Academic DFIR Case Study: “2019 Narcos”<br>
+**Academic DFIR Case Study: “2019 Narcos”<br>**
 
 This repository documents a university-level Digital Forensics and Incident Response (DFIR) investigation conducted for ICT378. The project applies forensically sound methods to analyse multiple Windows 10 systems involved in a simulated narcotics trafficking operation.
 
