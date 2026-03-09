@@ -1,6 +1,6 @@
 # Digital Forensic Investigation — Narcos Case Study 
 
-## Project Summary
+### Project Summary
 **Academic DFIR Case Study: “2019 Narcos”<br>**
 
 This repository documents a university-level Digital Forensics and Incident Response (DFIR) investigation conducted for ICT378. The project applies forensically sound methods to analyse multiple Windows 10 systems involved in a simulated narcotics trafficking operation.
@@ -36,7 +36,7 @@ In the “2019 Narcos” academic scenario, two individuals were intercepted upo
 
 NOTE: Full scenario details are provided in the official assignment brief included in this repository.
 
----
+
 
 ## Investigation Objectives
 - Preserve evidence integrity and chain-of-custody throughout analysis
@@ -44,7 +44,7 @@ NOTE: Full scenario details are provided in the official assignment brief includ
 - Reconstruct user activity timelines using corroborative evidence
 - Document findings clearly and defensibly for forensic reporting
 
----
+
 
 ## Tools & Technologies
 - **Autopsy (v4.22.1)** – File system artefacts, browser history, registry analysis, data carving
@@ -53,7 +53,7 @@ NOTE: Full scenario details are provided in the official assignment brief includ
 - **Command-line hashing utilities** – Integrity checks (MD5/SHA)
 - **SQLite** – Case database repair and analysis support
 
----
+
 
 ### Methodology
 **Phase 1 - Evidence Verification**
