@@ -53,7 +53,7 @@ NOTE: Full scenario details are provided in the official assignment brief includ
 - **Command-line hashing utilities** – Integrity checks (MD5/SHA)
 - **SQLite** – Case database repair and analysis support
 
-
+---
 
 ### Methodology
 **Phase 1 - Evidence Verification**
@@ -152,6 +152,8 @@ Cross-device correlation helped identify sequences of activity relevant to the n
 - Understanding when artefacts are **supportive** rather than **conclusive**
 - Recognising anti-forensic behaviour and its investigative implications
 - Maintaining evidentiary discipline when working with sensitive material.
+
+---
 
 ### Ethical & Legal Considerations
 This repository excludes:
