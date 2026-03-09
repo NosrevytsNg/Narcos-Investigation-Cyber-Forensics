@@ -1,4 +1,4 @@
-# Digital Forensic Investigation — Narcos Case Study (Windows 10 Systems)
+# Digital Forensic Investigation — Narcos Case Study 
 
 ## Project Summary
 **Academic DFIR Case Study: “2019 Narcos”<br>**
@@ -55,7 +55,7 @@ NOTE: Full scenario details are provided in the official assignment brief includ
 
 ---
 
-## Methodology
+### Methodology
 **Phase 1 - Evidence Verification**
    - Cryptographic hashing performed prior to and during analysis to ensure integrity.
 
@@ -113,7 +113,7 @@ Artefacts were corroborated across tools and timelines to reduce false positives
 
 ---
 
-## Timeline Reconstruction
+### Timeline Reconstruction
 
 Artefacts recovered from multiple systems were correlated to reconstruct user activity and communication patterns.
 
@@ -127,15 +127,13 @@ Sources used for timeline reconstruction included:
 
 Cross-device correlation helped identify sequences of activity relevant to the narcotics trafficking operation.
 
-## Key Findings (Summary)
+### Key Findings (Summary)
 - Coordinated communication and operational planning between suspects
 - Evidence of concealment and obfuscation techniques
 - Identification of spyware/malware relevant to surveillance and control
 - Reconstructed timelines supporting investigative hypotheses
 
 > Detailed artefacts, file contents, and extracted evidence are intentionally excluded from this repository.
-
----
 
 ## Limitations & Reflections
 
@@ -155,9 +153,7 @@ Cross-device correlation helped identify sequences of activity relevant to the n
 - Recognising anti-forensic behaviour and its investigative implications
 - Maintaining evidentiary discipline when working with sensitive material.
 
----
-
-## Ethical & Legal Considerations
+### Ethical & Legal Considerations
 This repository excludes:
 - Forensic images and memory dumps
 - Extracted files or illicit content
@@ -165,3 +161,12 @@ This repository excludes:
 
 The project is presented strictly for **educational, ethical, and demonstrative purposes**, showcasing DFIR methodology rather than evidence distribution.
 
+## Author
+
+**Styverson Ng**
+
+Bachelor of Information Technology <br>
+Artificial Intelligence & Autonomous Systems <br>
+Cyber Security & Cyber Forensics <br>
+
+Murdoch University <br>
