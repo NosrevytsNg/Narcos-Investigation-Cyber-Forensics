@@ -163,7 +163,7 @@ This repository excludes:
 
 The project is presented strictly for **educational, ethical, and demonstrative purposes**, showcasing DFIR methodology rather than evidence distribution.
 
-## Author
+## 🖋️ Author
 
 **Styverson Ng**
 
